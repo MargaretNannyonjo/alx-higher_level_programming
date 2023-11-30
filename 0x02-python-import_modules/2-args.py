@@ -9,7 +9,8 @@ if __name__ == "__main__":
         print("{} arguments:".format(size))
         for i, arg in enumerate(args, 1):
             print("{}: {}".format(i, arg))
-    elif size == 0:
-        print("{} arguments:".format(size))
+    elif size == 1:
+        print("{} argument:".format(size))
+        print("1: {}".format(args[0]))
     else:
-        print("{}: {}".format(size, args[0]))
+        print("0 arguments.")
