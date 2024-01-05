@@ -1,0 +1,3 @@
+#!/usr/bin/python
+"""Get the type of an object"""
+type
